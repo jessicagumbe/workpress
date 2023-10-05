@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: root
-      MYSQL_PASSWORD:
+      MYSQL_PASSWORD: SomeWordpress
     volumes:
       - db:/var/lib/mysql
 
